@@ -142,4 +142,42 @@
   opacity: 0.7;
   font-style: italic;
 }
+
+.benefits {
+  text-align: center;
+}
+
+.benefits .benefits-title {
+  font-size: 3rem;
+  color: #443e80;
+  font-weight: 800;
+  margin: 0;
+}
+
+.benefits .benefits-title-alt {
+  font-size: 3.3rem;
+  color: #7aaf46;
+  font-weight: 800;
+  margin: 0;
+  margin-top: -5px;
+}
+
+.benefits p {
+  font-weight: 500;
+}
+
+.benefits .benefits-text {
+  font-style: italic;
+  opacity: 0.8;
+  font-size: 1.1rem;
+}
+
+.benefits .benefits-spot {
+  color: #7aaf46;
+  font-weight: 800;
+}
+
+.benefits .benefits-row {
+  margin-top: 6rem;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -129,3 +129,40 @@ $color-accent: #7aaf46;
     font-style: italic;
   }
 }
+
+.benefits {
+  text-align: center;
+
+  .benefits-title {
+    font-size: 3rem;
+    color: $color-background;
+    font-weight: 800;
+    margin: 0;
+  }
+  .benefits-title-alt {
+    font-size: 3.3rem;
+    color: $color-accent;
+    font-weight: 800;
+    margin: 0;
+    margin-top: -5px;
+  }
+
+  p {
+    font-weight: 500;
+  }
+
+  .benefits-text {
+    font-style: italic;
+    opacity: 0.8;
+    font-size: 1.1rem;
+  }
+
+  .benefits-spot {
+    color: $color-accent;
+    font-weight: 800;
+  }
+
+  .benefits-row {
+    margin-top: 6rem;
+  }
+}
