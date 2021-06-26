@@ -88,6 +88,10 @@
   background-color: #7aaf46;
 }
 
+.btn-accent:hover {
+  color: #fff;
+}
+
 .btn-outline {
   font-weight: bold;
   background-color: transparent;
@@ -179,5 +183,63 @@
 
 .benefits .benefits-row {
   margin-top: 6rem;
+}
+
+.invest {
+  height: 450px;
+  background: url(../img/concept-hand-holding-money-growing-small-plant_34152-662.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.invest .background {
+  height: 100%;
+  width: 100%;
+  background: rgba(68, 62, 128, 0.7);
+}
+
+.invest .invest-container {
+  height: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.invest .invest-container h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.invest .invest-container p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+  width: 70%;
+}
+
+.invest .invest-container button {
+  font-size: 1.4rem;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
 }
 /*# sourceMappingURL=styles.css.map */
