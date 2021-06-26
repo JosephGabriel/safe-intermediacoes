@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 $color-background: #443e80;
 $color-accent: #7aaf46;
 
 * {
   font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: $color-background;
 }
 
 .accent-bg {
@@ -16,8 +20,27 @@ $color-accent: #7aaf46;
 }
 
 .header {
-  height: 95vh;
+  height: 85vh;
   background-color: $color-background;
+  background-image: url(../img/pig.png);
+  background-position: center;
+  background-size: 25%;
+  background-repeat: no-repeat;
+
+  .header-container {
+    width: 48%;
+    .header-title {
+      color: #fff;
+      font-weight: 800;
+    }
+
+    .header-text {
+      color: #fff;
+      font-size: 1.3rem;
+      line-height: 1;
+      font-weight: 600;
+    }
+  }
 }
 
 .nav-menu {
@@ -54,8 +77,18 @@ $color-accent: #7aaf46;
 
 .btn {
   font-weight: 800;
-  font-size: 10px;
   text-transform: uppercase;
+}
+
+.f10 {
+  font-size: 10px;
+}
+
+.btn-accent {
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: $color-accent;
 }
 
 .btn-outline {
@@ -66,5 +99,33 @@ $color-accent: #7aaf46;
 
   &:hover {
     color: #fff;
+  }
+}
+
+.form-container {
+  width: 85%;
+  padding: 1rem 0;
+  border-radius: 10px;
+  background-color: #fff;
+
+  h3 {
+    font-weight: 800;
+  }
+}
+
+.text-italic {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.form-control {
+  width: 80%;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 5px 5px 12px 5px #dadada54;
+
+  &::placeholder {
+    opacity: 0.7;
+    font-style: italic;
   }
 }
