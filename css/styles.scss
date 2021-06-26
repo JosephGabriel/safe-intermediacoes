@@ -19,6 +19,10 @@ $color-accent: #7aaf46;
   color: $color-accent;
 }
 
+.accent-text-alt {
+  color: $color-background;
+}
+
 .header {
   height: 85vh;
   background-color: $color-background;
@@ -212,5 +216,23 @@ $color-accent: #7aaf46;
       padding-inline: 1.5rem;
       padding-block: 0.5rem;
     }
+  }
+}
+
+.trade-section {
+  .trade-box {
+    h2 {
+      font-weight: 800;
+    }
+
+    p {
+      font-weight: 500;
+    }
+  }
+
+  button {
+    font-size: 1.4rem;
+    padding-inline: 1.5rem;
+    padding-block: 0.5rem;
   }
 }
