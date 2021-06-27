@@ -5,14 +5,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TSTK5XG');
+    </script>
+    <!-- End Google Tag Manager -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Safe Investimentos</title>
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSTK5XG" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container d-flex justify-content-between">
             <a class="navbar-brand" href="#home">
@@ -99,27 +119,27 @@
             <div class="row h-100 d-flex justify-content-lg-between justify-content-md-center align-items-center">
                 <div class="col-lg-8 col-md-12 p-0">
                     <div class="header-container">
-                        <h1 class="header-title">APRENDA A <br><span class="accent-text">INVESTIR DE</span><br>FORMA
-                            SIMPLES
+                        <h1 class="header-title">TENHA SUA<br><span class="accent-text">FONTE DE RENDA</span><br>PASSIVA
                         </h1>
-                        <p class="header-text mb-5">Buscar sempre os melhores resultados para você é o
-                            que nos move.
+                        <p class="header-text mb-5">Contrate nossa equipe de especialistas e veja seu patrimônio crescer
                         </p>
 
-                        <a href="" class="mt-5">
+                        <a href="#diversifique" class="mt-5">
                             <button type="button" class="btn btn-accent rounded-pill">QUERO SABER MAIS</button>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 p-0">
                     <div class="d-flex justify-content-end">
-                        <form action="" class="text-center form-container">
+                        <form method="POST" action="/mail.php" class="text-center form-container">
                             <h3 class="accent-text">Dê valor <br /> ao seu dinheiro!</h3>
                             <p class="text-italic mb-4">É Rápido, Fácil e sem custos!</p>
-                            <input class="form-control m-auto mb-3" type="text" placeholder="Digite seu nome" />
-                            <input class="form-control m-auto mb-3" type="email"
+                            <input class="form-control m-auto mb-3" type="text" placeholder="Digite seu nome"
+                                name="name" />
+                            <input class="form-control m-auto mb-3" type="email" name="email"
                                 placeholder="Digite seu melhor email" />
-                            <input class="form-control m-auto mb-3" type="text" placeholder="DDD + Celular" />
+                            <input class="form-control m-auto mb-3" type="text" placeholder="DDD + Celular"
+                                name="number" />
                             <p class="text-italic">Preecha todos os campos*</p>
                             <button type="button" class="btn btn-accent rounded-pill mb-2">ABRIR SUA CONTA</button>
                         </form>
@@ -184,7 +204,7 @@
     <section class="invest" id="investir">
         <div class="background d-flex justify-content-center align-items-center">
             <div class="container invest-container text-center">
-                <h1 class="m-0">INVESTIR É SOBRE VOCÊ!</h1>
+                <h1 class="m-0">MAIS RENTABILIDADE</h1>
                 <p class="m-0">Receba até 1% ao dia de segunda a sexta, podendo <br /> chegar até 20% ao mês.</p>
                 <button type="button" class="btn btn-accent rounded-pill m-0">ABRIR SUA CONTA</button>
             </div>
@@ -198,16 +218,13 @@
                     <div class="trade-section">
                         <div class="trade-box">
                             <h2 class="mb-3 accent-text-alt">Saia do Convencional</h2>
-                            <p class="mb-5 text-italic">Opções mais arrojadas e rentáveis como a Nexoos <br /> devem
-                                compor sua
-                                carteira, juntamente cominvestimentos mais tradicionais e seguros</p>
+                            <p class="mb-5 text-italic">Você não precisa fazer nenhuma análise de ativos ou sequer
+                                entender de investimentos. Tudo é feito por nossa equipe de especialistas</p>
                         </div>
                         <div class="trade-box">
-                            <h2 class="mb-3 accent-text">Diversificar é preciso</h2>
-                            <p class="mb-5 text-italic">Aqui na Nexoos você escolhe as investidas quedeseja emprestar
-                                dinheiro de
-                                acordo com aclassificação de risco dos negócios, que vãode A a E
-                                (taxa de juros de 14% a 63%).</p>
+                            <h2 class="mb-3 accent-text">Satisfação Garantida</h2>
+                            <p class="mb-5 text-italic">Se em 180 dias, o resultado for negativo, nós cobrimos o
+                                prejuízo e devolvemos todo o valor investido.</p>
                         </div>
                         <button type="button" class="btn btn-accent rounded-pill m-0">ABRIR SUA CONTA</button>
                     </div>
@@ -234,16 +251,16 @@
                     <h6>MENU</h6>
                     <ul class="m-0">
                         <li class="mb-2">
-                            <a href="">Home</a>
+                            <a href="#">Home</a>
                         </li>
                         <li class="mb-2">
-                            <a href="">Vantagens</a>
+                            <a href="#diversifique">Vantagens</a>
                         </li>
                         <li class="mb-2">
-                            <a href="">Quero Investir</a>
+                            <a href="#investir">Quero Investir</a>
                         </li>
                         <li>
-                            <a href="">Porquê Investir?</a>
+                            <a href="#porque">Porquê Investir?</a>
                         </li>
                     </ul>
                 </div>
@@ -257,9 +274,10 @@
                         </li>
                     </ul>
                     <div class="d-flex social-icons align-items-center">
-                        <a href=""><i class="fab fa-instagram mx-2 text-white"></i></a>
+                        <a href="https://instagram.com/safeintermedia?utm_medium=copy_link">
+                            <i class="fab fa-instagram mx-2 text-white"></i></a>
                         <a href=""><i class="fab fa-facebook-f mx-2 text-white"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in mx-2 text-white"></i></a>
+                        <!-- <a href=""><i class="fab fa-linkedin-in mx-2 text-white"></i></a> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
