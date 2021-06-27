@@ -285,3 +285,12 @@ $color-accent: #7aaf46;
     padding-block: 0.3rem;
   }
 }
+
+.spot-footer {
+  background: $color-accent;
+  color: #fff;
+
+  p {
+    font-size: 0.6rem;
+  }
+}

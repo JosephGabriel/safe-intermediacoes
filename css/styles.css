@@ -316,4 +316,13 @@
   padding-inline: 2rem;
   padding-block: 0.3rem;
 }
+
+.spot-footer {
+  background: #7aaf46;
+  color: #fff;
+}
+
+.spot-footer p {
+  font-size: 0.6rem;
+}
 /*# sourceMappingURL=styles.css.map */
