@@ -350,5 +350,26 @@
     text-align: center;
     padding: 1rem;
   }
+  .footer {
+    text-align: center;
+  }
+  .footer .footer-logo {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .footer-logo p {
+    margin: 1rem auto;
+  }
+  .footer .social-icons {
+    margin: 1rem auto;
+  }
+  .footer .social-icons a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .footer button {
+    margin-top: 2rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

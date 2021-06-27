@@ -324,4 +324,28 @@ $color-accent: #7aaf46;
     text-align: center;
     padding: 1rem;
   }
+
+  .footer {
+    text-align: center;
+
+    .footer-logo {
+      align-items: center;
+      p {
+        margin: 1rem auto;
+      }
+    }
+
+    .social-icons {
+      margin: 1rem auto;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+
+    button {
+      margin-top: 2rem;
+    }
+  }
 }
