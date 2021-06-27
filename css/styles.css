@@ -3,6 +3,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   background-color: #443e80;
 }
@@ -366,6 +374,8 @@
   }
   .footer .social-icons a {
     text-decoration: none;
+  }
+  .footer .social-icons a i {
     color: #fff;
   }
   .footer button {

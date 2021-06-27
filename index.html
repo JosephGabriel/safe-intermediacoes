@@ -13,37 +13,88 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <!-- <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container d-flex justify-content-between">
-            <a class="navbar-brand" href="#top">
+            <a class="navbar-brand" href="#home">
                 <img src="./img/logo.png" alt="Logo Safe Investimentos" class="img-fluid" width="200px" />
             </a>
-            <ul class="nav-menu">
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">Vantagens</a>
-                </li>
-                <li>
-                    <a href="">Quero Investir</a>
-                </li>
-                <li>
-                    <a href="">Porque Investir?</a>
-                </li>
-            </ul>
-            <div class="buttons d-flex">
-                <a href="">
-                    <button type="button" class="btn accent-bg text-white rounded-pill f10">Abrir conta</button>
-                </a>
-                <a href="">
-                    <button type="button" class="btn btn-outline rounded-pill f10">Login</button>
-                </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-evenly" id="nav">
+                <div class="d-flex justify-content-end">
+                    <ul class="nav-menu navbar-nav">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#diversifique">Vantagens</a>
+                        </li>
+                        <li>
+                            <a href="#investir">Quero Investir</a>
+                        </li>
+                        <li>
+                            <a href="#porque">Porque Investir?</a>
+                        </li>
+                    </ul>
+                    <div class="buttons d-flex">
+                        <a href="">
+                            <button type="button" class="btn accent-bg text-white rounded-pill f10">Abrir conta</button>
+                        </a>
+                        <a href="">
+                            <button type="button" class="btn btn-outline rounded-pill f10">Login</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class=" container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <div class="d-flex">
+                    <ul class="nav-menu navbar-nav">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#diversifique">Vantagens</a>
+                        </li>
+                        <li>
+                            <a href="#investir">Quero Investir</a>
+                        </li>
+                        <li>
+                            <a href="#porque">Porque Investir?</a>
+                        </li>
+                    </ul>
+                    <div class="buttons d-flex">
+                        <a href="">
+                            <button type="button" class="btn accent-bg text-white rounded-pill f10">Abrir conta</button>
+                        </a>
+                        <a href="">
+                            <button type="button" class="btn btn-outline rounded-pill f10">Login</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
 
-    <header class="header">
+    <header class="header" id="home">
         <div class="container h-100 pig-background">
             <div class="row h-100 d-flex justify-content-lg-between justify-content-md-center align-items-center">
                 <div class="col-lg-8 col-md-12 p-0">
@@ -78,7 +129,7 @@
         </div>
     </header>
 
-    <section class="pt-5">
+    <section class="pt-5" id="diversifique">
         <div class="container mt-5 d-flex justify-content-center align-items-center">
             <div class="benefits w-100">
                 <h1 class="benefits-title">Diversifique seus</h1>
@@ -130,17 +181,17 @@
         </div>
     </section>
 
-    <section class="invest">
+    <section class="invest" id="investir">
         <div class="background d-flex justify-content-center align-items-center">
             <div class="container invest-container text-center">
                 <h1 class="m-0">INVESTIR É SOBRE VOCÊ!</h1>
-                <p class="m-0">Receba até 0,5% ao dia de segunda a sexta, podendo <br /> chegar até 10% vitálicio.</p>
+                <p class="m-0">Receba até 1% ao dia de segunda a sexta, podendo <br /> chegar até 20% ao mês.</p>
                 <button type="button" class="btn btn-accent rounded-pill m-0">ABRIR SUA CONTA</button>
             </div>
         </div>
     </section>
 
-    <section class="trade">
+    <section class="trade" id="porque">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
@@ -206,9 +257,9 @@
                         </li>
                     </ul>
                     <div class="d-flex social-icons align-items-center">
-                        <a href=""><i class="fab fa-instagram mx-2"></i></a>
-                        <a href=""><i class="fab fa-facebook-f mx-2"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in mx-2"></i></a>
+                        <a href=""><i class="fab fa-instagram mx-2 text-white"></i></a>
+                        <a href=""><i class="fab fa-facebook-f mx-2 text-white"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in mx-2 text-white"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">

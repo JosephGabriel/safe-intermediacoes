@@ -7,6 +7,14 @@ $color-accent: #7aaf46;
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   background-color: $color-background;
 }
@@ -340,7 +348,10 @@ $color-accent: #7aaf46;
 
       a {
         text-decoration: none;
-        color: #fff;
+
+        i {
+          color: #fff;
+        }
       }
     }
 
