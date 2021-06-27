@@ -325,4 +325,30 @@
 .spot-footer p {
   font-size: 0.6rem;
 }
+
+@media screen and (max-width: 996px) {
+  html {
+    font-size: 80.5%;
+  }
+  .header {
+    height: auto;
+    padding: 1rem;
+    background-image: none;
+  }
+  .header .header-container {
+    margin: 2rem auto;
+    text-align: center;
+    width: 80%;
+  }
+  .header .form-container {
+    margin: 2rem auto;
+  }
+  .benefits {
+    width: 80%;
+  }
+  .trade-section {
+    text-align: center;
+    padding: 1rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
