@@ -260,4 +260,60 @@
   padding-inline: 1.5rem;
   padding-block: 0.5rem;
 }
+
+.footer {
+  background: #443e80;
+  color: #fff;
+}
+
+.footer .col-lg-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer i {
+  font-size: 1.3rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  padding: 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .font-bold {
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.footer button {
+  font-size: 1.2rem;
+  padding-inline: 2rem;
+  padding-block: 0.3rem;
+}
 /*# sourceMappingURL=styles.css.map */
