@@ -7,13 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Tag Manager -->
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TSTK5XG');
     </script>
     <!-- End Google Tag Manager -->
@@ -28,8 +34,7 @@
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSTK5XG" height="0" width="0"
-            style="display:none;visibility:hidden">
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSTK5XG" height="0" width="0" style="display:none;visibility:hidden">
         </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -78,9 +83,7 @@
             <a class="navbar-brand" href="#">
                 <img src="./img/logo.png" alt="Logo" width="150">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -134,14 +137,12 @@
                         <form method="POST" action="/mail.php" class="text-center form-container">
                             <h3 class="accent-text">Dê valor <br /> ao seu dinheiro!</h3>
                             <p class="text-italic mb-4">É Rápido, Fácil e sem custos!</p>
-                            <input class="form-control m-auto mb-3" type="text" placeholder="Digite seu nome"
-                                name="name" />
-                            <input class="form-control m-auto mb-3" type="email" name="email"
-                                placeholder="Digite seu melhor email" />
-                            <input class="form-control m-auto mb-3" type="text" placeholder="DDD + Celular"
-                                name="number" />
+                            <input class="form-control m-auto mb-3" type="text" placeholder="Digite seu nome" name="name" required />
+                            <input class="form-control m-auto mb-3" type="email" name="email" placeholder="Digite seu melhor email" required />
+                            <input class="form-control m-auto mb-3" type="text" placeholder="DDD + Celular" name="number" required />
                             <p class="text-italic">Preecha todos os campos*</p>
-                            <button type="button" class="btn btn-accent rounded-pill mb-2">ABRIR SUA CONTA</button>
+                            <button class="btn btn-accent rounded-pill mb-2" type="submit">ABRIR SUA
+                                CONTA</button>
                         </form>
                     </div>
                 </div>
