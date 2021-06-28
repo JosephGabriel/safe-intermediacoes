@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -34,7 +34,8 @@
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSTK5XG" height="0" width="0" style="display:none;visibility:hidden">
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSTK5XG" height="0" width="0"
+            style="display:none;visibility:hidden">
         </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -83,7 +84,9 @@
             <a class="navbar-brand" href="#">
                 <img src="./img/logo.png" alt="Logo" width="150">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -137,9 +140,12 @@
                         <form method="POST" action="/mail.php" class="text-center form-container">
                             <h3 class="accent-text">Dê valor <br /> ao seu dinheiro!</h3>
                             <p class="text-italic mb-4">É Rápido, Fácil e sem custos!</p>
-                            <input class="form-control m-auto mb-3" type="text" placeholder="Digite seu nome" name="name" required />
-                            <input class="form-control m-auto mb-3" type="email" name="email" placeholder="Digite seu melhor email" required />
-                            <input class="form-control m-auto mb-3" type="text" placeholder="DDD + Celular" name="number" required />
+                            <input class="form-control m-auto mb-3" type="text" placeholder="Digite seu nome"
+                                name="name" required />
+                            <input class="form-control m-auto mb-3" type="email" name="email"
+                                placeholder="Digite seu melhor email" required />
+                            <input class="form-control m-auto mb-3" type="text" placeholder="DDD + Celular"
+                                name="number" required />
                             <p class="text-italic">Preecha todos os campos*</p>
                             <button class="btn btn-accent rounded-pill mb-2" type="submit">ABRIR SUA
                                 CONTA</button>
@@ -234,6 +240,160 @@
                     <div class="p-5">
                         <div class="h-75 w-75 m-auto">
                             <img src="./img/phone.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="mb-5">Perguntas Frequentes</h2>
+                    <div class="accordion my-5" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Não entendo nada de investimentos. Esse serviço é pra mim?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">Claro! Você não precisa entender de mercado financeiro para ganhar
+                                        dinheiro. Nós
+                                        trabalhamos e você lucra. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    O investimento é seguro?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">Sim! Nossos contratos tem validade de 180 dias. E, apesar da
+                                        permanência mínima
+                                        de 90 dias, ao término do contrato todos os prejuízos, caso tenham, são
+                                        absorvidas. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Qual o valor mínimo de investimento? Como é feito o depósito?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">O valor mínimo recomendado é um aparte que você não tenha necessidade
+                                        de uso
+                                        entre 90 e 180 dias.
+                                        O depósito é feito via PiX ou TED. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Como meu dinheiro será investido?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">Serão comprados e vendidos diariamente posições no mercado de futuros
+                                        da nossa B3. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Preciso pagar alguma taxa?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">Nenhuma taxa de adesão ou manutenção para prestação do serviço.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Como funciona a garantia de 180 dias?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">Caso tenha prejuízo ao final do sexto mês, a soma dos prejuízos serão
+                                        absorvidas frente ao contrato. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Preciso pagar algum imposto?
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">Não, os impostos das operações serão recolhidos na fonte.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Tem algum risco?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">Todo mercado de renda variável é de risco. No entanto, todo prejuízo
+                                        é absorvido ao final do contrato.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    Como funcionam os recebimentos?
+                                </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="m-0">Ao final do último dia útil do mês em questão o balanço das operações
+                                        são realizadas. E, no dia seguinte, enviados ao investidor. Os recebimentos são
+                                        creditadas do 1• ao 5• dia útil do mês seguinte ao das operações.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
