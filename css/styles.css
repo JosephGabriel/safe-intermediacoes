@@ -80,6 +80,26 @@ body {
   text-decoration: none;
 }
 
+.register-form input {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 12px 5px #0000001c;
+          box-shadow: 5px 5px 12px 5px #0000001c;
+}
+
+.register-form select {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 12px 5px #0000001c;
+          box-shadow: 5px 5px 12px 5px #0000001c;
+}
+
+.font-normal {
+  font-weight: 500 !important;
+  font-size: 0.8rem;
+  text-transform: none;
+}
+
 .buttons button {
   margin-left: 1rem;
 }
